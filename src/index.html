@@ -1,5 +1,302 @@
-<center>
-<img src="new.png" width="100%"/>
-<br/>
-<img src="ceu_codecamp.jpg"/>
-</center>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Portfolio</title>
+    </head>
+</head>
+<style>
+    header {
+            background-color: #e8b4bc;
+            padding: 2px; /* Add padding for better spacing */
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-between; /* Changed to space-between */
+            align-items: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #f7eef0; /* You can change the color to suit your design */
+            font-weight: bold;
+            margin: 0 10px; /* Adjust the spacing between links */
+            font: lora;
+        }
+
+        .logo img {
+            max-width: 120px; /* Adjust the maximum width of the logo */
+            height: auto;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 100%; /* Adjust the max-width as needed */
+            margin: 0 auto;
+            background-color: #f8edef;
+            padding: 5%;
+        }
+
+        .home {
+            flex: 1;
+            padding-right: 20px; /* Adjust the spacing between text and image */
+        }
+
+        .profilepic {
+            flex: 1;
+            text-align: right;
+        }
+
+        .profilepic img {
+            width: auto; /* Ensure the image doesn't exceed its container */
+            height: 480px;
+        }
+
+        #skillset {
+            border: 2px solid #b6e2d3;
+            padding: 15px; /* Add 10px of padding inside the container */
+            text-align: center; /* Center-align the content inside the container */
+            background-color: #b6e2d3;
+            font: playfair display;
+        }
+
+        #skillset img {
+            width: auto;
+            height: 200px;
+            margin: 10px; /* Add some margin around each image */
+        }
+
+        #projects {
+            text-align: center;
+            border: 2px solid #f8edef;
+            background-color: #f8edef;
+        }
+
+        #projects h2 {
+            margin-bottom: 20px;
+        }
+
+        #projects img {
+            height: 190px;
+            width: 300px; /* Adjust the width as needed */
+            margin: 0 10px; /* Adjust the margin as needed */
+            display: inline-block;
+        }
+
+        #projects::after {
+            content: "";
+            display: block;
+            margin: 20px auto; /* Adjust the margin as needed */
+            width: 80%; /* Adjust the width of the line */
+        }
+
+        #seminar {
+            text-align: center;
+            border: #b6e2d3;
+            background-color: #b6e2d3;
+            margin-top: 10px;
+
+        }
+
+        #seminar h2 {
+            margin-bottom: 20px;
+        }
+
+        #seminar img {
+            height: 200px;
+            width: auto; /* Adjust the width as needed */
+            margin: 0 10px; /* Adjust the margin as needed */
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        #seminar::after {
+            content: "";
+            display: block;
+            margin: 20px auto; /* Adjust the margin as needed */
+            width: 80%; /* Adjust the width of the line */
+        }
+
+        .con {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 100%; /* Adjust the max-width as needed */
+            margin: 0 auto;
+            background-color: #f8edef;
+            padding: 5%;
+        }
+
+        #aboutme {
+            max-width: 100%;
+            text-align: left;
+        }
+
+        #aboutme h2 {
+            margin-bottom: 10px;
+        }
+
+        #aboutme p {
+            margin-bottom: 10px;
+        }
+
+        footer {
+    text-align: center; /* Igitna ang nilalaman ng footer */
+    padding: 20px; /* Magdagdag ng espasyo sa paligid ng nilalaman */
+    background-color: #f2f2f2; /* Kulay ng background */
+}
+
+footer a {
+    margin: 0 10px; /* Maglagay ng espasyo sa pagitan ng mga link */
+}
+
+footer img {
+    width: 30px; /* I-set ang sukat ng imahe */
+    height: 30px; /* I-set ang taas ng imahe */
+    border-radius: 50%; /* Gawing bilog ang imahe */
+    transition: transform 0.3s ease-in-out; /* Idagdag ang epekto ng paglipat kapag in-hover */
+}
+
+/* Dagdagan ng hover effect para sa mga imahe */
+footer img:hover {
+    transform: scale(1.2); /* Palakihin ang imahe kapag in-hover */
+}
+
+</style>
+
+<header>
+    <nav>
+        <ul>
+            <div class="logo">
+                <img src="img/logo.png" alt="pink">
+            </div>
+            <a href="#home">HOME</a>
+            <a href="#skillset">SKILL SET</a>
+            <a href="#projects">PROJECTS</a>
+            <a href="#seminar">SEMINAR</a>
+            <a href="#aboutme">ABOUT ME</a>
+        </ul>
+    </nav>
+</header>
+<body>
+    <div class="container">
+        <div class="home">
+            <p>Hello I'm</p>
+            <h1>Katrina Hernandez Santiago</h1>
+            <h3>Future IT Professional</h3>
+            <p>A 2nd year Bachelor of Science in Information Technology student at Phinma Araullo University. I am a logical individual because I prioritize rational thought processes. When facing decisions, I rely on evidence rather than emotions, ensuring a well-founded basis for my choices. This commitment extends to personal and professional matters, where I actively mitigate the influence of emotions on my reasoning. By adhering to logical principles, I aim to foster sound decision-making and avoid the pitfalls of emotional bias. Ultimately, my assertion of being logical is rooted in a deliberate and consistent effort to engage with the world through the lens of reason.</p>
+        </div>
+        <div class="profilepic">
+            <img src="img/pic.jpeg" alt="Profile Picture">
+        </div>
+    </div>
+<br><br>
+
+<hr size="2" color="#ef7c8e" width="100%">
+<br><br>
+    
+    <div id="skillset">
+        <h2>Skill Set</h2>
+        <img src="img/python logo.png">
+        <img src="img/html logo.png">
+        <img src="img/css logo.png">
+        <img src="img/php logo.png">
+    </div>
+    
+<br><br>
+<hr size="2" color="#b6e2d3" width="100%">
+
+<br><br>
+
+    <div id="projects">
+        <h2>Projects</h2>
+        <a href="https://drive.google.com/drive/folders/1HEEWr9eE1HBQ5OpQoW-sXuyMdd0vfq_H?usp=drive_link">
+            <img src="img/1.png" alt="Netiquette Project">
+        </a>
+        <a href="https://drive.google.com/drive/folders/12I5XclTb61TLBRHvw6YcrZ7cbe1tnWNa?usp=drive_link" >
+            <img src="img/2.png">
+        </a>
+        <a href="https://drive.google.com/drive/folders/122p81ur6EaZ48Am73jxfFWHMXpspBNZA?usp=drive_link" >
+        <img src="img/3.png">
+        </a>
+        <a href="https://drive.google.com/drive/folders/1mLpxNHBsCjH0uwkmyAogRD0migLKdWbe?usp=drive_link" >
+        <img src="img/4.png">
+        </a>
+        <a href="https://drive.google.com/drive/folders/1dPVHH5KPovJud1Qc1wW7nZTyejKR731K?usp=drive_link" >
+        <img src="img/5.png">
+        </a>
+        <a href="https://drive.google.com/drive/folders/1dPVHH5KPovJud1Qc1wW7nZTyejKR731K?usp=drive_link" >
+        <img src="img/6.png">
+        </a>
+        <a href="https://drive.google.com/drive/folders/1dPVHH5KPovJud1Qc1wW7nZTyejKR731K?usp=drive_link" >
+        <img src="img/7.png">
+        </a>
+        <a href="https://drive.google.com/drive/folders/1dPVHH5KPovJud1Qc1wW7nZTyejKR731K?usp=drive_link" >
+        <img src="img/8.png">
+        </a>
+        <a href="https://drive.google.com/drive/folders/1dPVHH5KPovJud1Qc1wW7nZTyejKR731K?usp=drive_link" >
+        <img src="img/9.png">
+        </a>
+        <a href="https://drive.google.com/drive/folders/1dPVHH5KPovJud1Qc1wW7nZTyejKR731K?usp=drive_link" >
+        <img src="img/9.png">
+        </a>
+        <a href="https://drive.google.com/drive/folders/1dPVHH5KPovJud1Qc1wW7nZTyejKR731K?usp=drive_link" >
+        <img src="img/10.png">
+        </a>
+        <a href="https://drive.google.com/drive/folders/1Mj86SKhMDHyuhWhZE3Ld-jMcmIS_XjG_?usp=drive_link" >
+        <img src="img/11.png">
+        </a>
+    </div>
+<br><br>
+<hr size="2" color="#ef7c8e" width="100%">
+<br><br>
+
+    <div id="seminar">
+        <h2>Seminar</h2>
+        <img src="img/IMG_20230528_0001.jpg">
+        <img src="img/IMG_20230528_0003.jpg">
+        <img src="img/368578214_652799883670518_8085130476129035869_n.png">
+        <img src="img/387525490_2646413998848488_7332264756463601545_n.png">
+        <img src="img/387530894_1085777885724527_199306550070957375_n.png">
+    </div>
+
+<br><br>
+<hr size="2" color="#b6e2d3" width="100%">
+<br><br>
+
+<div class="con">
+    <div id="aboutme">
+        <h2>About me</h2>
+        <p>I am Katrina Hernandez Santiago. I live in Brgy.Campos, Talavera Nueva Ecija. I am 2nd year BSIT student
+            at Phinma Araullo University. Based on my facination test result,I am a mystique. I think I am mystique because
+             I can adapt to the ever-changing landscapes of life. Like a chameleon, I seamlessly blend into different 
+             environments, embracing the fluidity of my identity. My versatility allows 
+             me to navigate diverse situations with ease, revealing only what I choose to share, much like the enigmatic 
+             nature of a shapeshifter. I am logical individual because I 
+             prioritize rational thought processes. When facing decisions, I rely on evidence rather than emotions, ensuring a well
+            -founded basis for my choices. This commitment extends to personal and professional matters, where I actively mitigate the influence
+             of emotions on my reasoning. By adhering to logical principles, I aim to foster sound decision-making and avoid the pitfalls of 
+             emotional bias. Ultimately, my assertion of being logical is rooted in a deliberate and consistent effort to engage with the world
+              through the lens of reason. I am independent because  I find my strength in self-reliance and the ability to
+               navigate the twists and turns of life on my terms. My independence is rooted in the freedom to shape-shift
+                through challenges and opportunities, adapting to the environment and flow of my journey. I am observant 
+                because I find wisdom in the details that escape casual notice. My keen perception allows me to unravel
+                 the intricacies of the world around me, appreciating the subtleties that often go unnoticed. Like a 
+                 silent observer.
+        </p>
+    </div>
+</div>
+</body>
+<footer>
+    <a><img src="img/facebook_5968764.png"></a>
+    <a><img src="img/instagram_1384063.png"></a>
+    <a><img src="img/gmail_5968534.png"></a>
+</footer>
+</html>
